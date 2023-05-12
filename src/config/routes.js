@@ -1,8 +1,11 @@
-// move router 
+// move router
 
 const routes = {
-    home: '/',
-    following: '/Following',
-}
+  home: "/",
+  likes: "/Likes",
+  trending: "/Trending",
+  watched: "/Watched",
+  author: '/@:nickname',
+};
 
 export default routes;

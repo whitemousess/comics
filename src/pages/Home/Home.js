@@ -1,5 +1,9 @@
+import Comics from "~/components/Comics";
+
 function Home() {
-    return ( <h1>home</h1> );
+    return ( <div>
+        <Comics />
+    </div> );
 }
 
 export default Home;

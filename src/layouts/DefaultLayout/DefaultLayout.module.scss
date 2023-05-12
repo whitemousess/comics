@@ -4,9 +4,12 @@
 }
 
 .container{
+    max-width: 100%;
     display: flex;
+    margin-top: 52px;
 }
 
 .content {
     flex: 1;
+    margin-left: 344px;
 }
