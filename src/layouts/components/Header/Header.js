@@ -16,7 +16,6 @@ function Header() {
     <header className={cx("wrapper")}>
       <div className={cx("inner")}>
         <Link to={config.routes.home} onClick={() => window.location.reload()}>
-          <FontAwesomeIcon icon={faBars} className={cx("menu-icon")} />
           <LogoWeb />
         </Link>
 
@@ -24,7 +23,7 @@ function Header() {
 
         <div className={cx("actions")}>
           <Button outline>Đăng ký</Button>
-          <Button primary>Đăng nhập</Button>
+          <Link to={config.routes.login}><Button primary>Đăng ký</Button></Link>
         </div>
       </div>
     </header>

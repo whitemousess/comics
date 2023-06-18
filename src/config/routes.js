@@ -6,6 +6,8 @@ const routes = {
   trending: "/Trending",
   watched: "/Watched",
   author: '/@:nickname',
+  login: '/login',
+  register: '/register',
 };
 
 export default routes;
