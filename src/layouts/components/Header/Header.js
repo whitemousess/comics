@@ -22,8 +22,8 @@ function Header() {
         <Search />
 
         <div className={cx("actions")}>
-          <Button outline>Đăng ký</Button>
-          <Link to={config.routes.login}><Button primary>Đăng ký</Button></Link>
+          <Link to={config.routes.register}><Button outline>Đăng ký</Button></Link>
+          <Link to={config.routes.login}><Button primary>Đăng nhập</Button></Link>
         </div>
       </div>
     </header>
